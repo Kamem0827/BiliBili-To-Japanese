@@ -14,7 +14,7 @@ async function translateText(text) {
         const translatedChunks = [];
 
         for (const chunk of chunks) {
-            const response = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=${encodeURIComponent(chunk)}`);
+            const response = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=ja&dt=t&q=${encodeURIComponent(chunk)}`);
             const data = await response.json();
 
             if (data && data[0] && data[0][0] && data[0][0][0]) {
