@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "BiliBili To English",
-  "version": "1.2.3",
-  "description": "Translate BiliBili To English.",
+  "name": "BiliBili To Japanese",
+  "version": "0.0.1",
+  "description": "Translate BiliBili To Japanese.",
   "author": "Update",
   "permissions": [
     "activeTab",
@@ -35,11 +35,6 @@
       "32": "icon32.png",
       "64": "icon64.png",
       "128": "icon128.png"
-    }
-  },
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "bilibili-translator@bilibili.com"
     }
   }
 }
